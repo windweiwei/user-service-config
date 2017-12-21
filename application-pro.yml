@@ -1,5 +1,4 @@
-spring:
-  profiles: local
+spring
   application:
     name: eureka-server
 server:
