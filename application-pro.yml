@@ -1,3 +1,7 @@
+spring:
+  profiles: local
+  application:
+    name: eureka-server
 server:
   port: 8671
 eureka:
@@ -8,6 +12,4 @@ eureka:
      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   instance:
     hostname: localhost
-spring:
-  application:
-    name: eureka-server
+
